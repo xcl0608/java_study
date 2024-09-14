@@ -1,3 +1,7 @@
+import xc.Dog;
+
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -6,8 +10,11 @@ public class Main {
          mt.bubble(arr1);
         for (int j : arr1) {
             System.out.println(j);
-            
+//            System.out.println();
         }
+        Dog dog = new Dog();
+        dog.print();
+//        Arrays
     }
 }
 class Mytool{
