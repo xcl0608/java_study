@@ -1,5 +1,5 @@
 package com.exception;
-
+import java.util.Arrays;
 public class trycatch {
     public static void main(String[] args) {
         try{
